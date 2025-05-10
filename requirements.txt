@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-openai
-pinecone-client
-python-dotenv
-langchain
-langchain-community
