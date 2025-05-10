@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="/Client/Styles/Homepage.css" />
+</head>
+<body>
+  <div class="hero">
+    <nav class="navigation">
+      <img src="/Client/assets/Logo.png" class="logo" />
+
+      <div class="User-Name">
+        <h2 id="welcomeUser" class="User">Welcome!</h2>
+      </div>
+
+      <div class="buttons">
+        <a href="#" id="logoutButton" class="button">Log Out</a>
+      </div>
+    </nav>
+
+    <main class="Main-Content">
+      <!-- Sidebar -->
+      <div class="SideBar">
+        <div class="sidebar-header">
+          <button id="new-chat-btn" class="new-chat-button">New Chat</button>
+        </div>
+        <ul id="chat-list" class="chat-list">
+          <!-- Chat history titles will be populated here -->
+        </ul>
+      </div>
+
+      <!-- Middle Chat Section -->
+      <div class="Middle-Content">
+        <div class="Chatbot">
+          <header class="chat-header">
+            <img class="chatbot-image" src="/Client/assets/Group 2.png" />
+            <h2>Ask Paws AI</h2>
+          </header>
+
+          <div class="chat-body">
+            <div class="bot-message">
+              <img class="chatbot-image" src="/Client/assets/Group 2.png" />
+              <div class="bot-message-text">
+                Hi I'm Paws, How Can I Help?
+              </div>
+            </div>
+            <div class="user-message"></div>
+          </div>
+
+          <div class="chat-footer">
+            <form action="#" class="chat-form">
+              <textarea
+                placeholder="Message..."
+                class="message-input"
+              ></textarea>
+            </form>
+            <div>
+              <button class="send-btn">
+                <img
+                  src="/assets/arrow_upward_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image assets -->
+      <div class="image-assets">
+        <div class="image">
+          <img class="image1" src="/Client/assets/image 4.png" />
+        </div>
+        <div class="image">
+          <img class="image2" src="/Client/assets/image 5.png" />
+        </div>
+        <div class="image">
+          <img class="image3" src="/Client/assets/Objects.png" />
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="/Client/scripts/HomePage.js"></script>
+</body>
+</html>

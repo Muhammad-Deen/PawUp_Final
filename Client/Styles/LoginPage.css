@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+.ul li a:hover {
+    color:#8CAD4A
+}
+
+.logo {
+    width: 100%; 
+    margin: 2vh;
+}
+
+.picture {
+    width: auto;
+    height: 90vh;
+    object-fit: fill; 
+}
+
+.navigation ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+    font-size: 25px;
+    padding: 10px 
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.col-left{
+    flex: 1;
+    justify-content: center; 
+    align-items: center;
+}
+
+.col-right{
+    flex: 2;
+    justify-content: center; 
+    align-items: center;
+}
+
+.details-left{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.picture-right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.main-header{
+    color: #7E817A;
+    font: sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+}
+
+.sub-heading{
+    color: #7E817A;
+    font: sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    width: 100%;
+}
+
+.sub-heading-forgot{
+    color: #7E817A;
+    font: sans-serif;
+    font-size: 1vw;
+    text-align: right;
+    width: 95%;
+}
+
+.user-text{
+    color: #7E817A;
+    font: sans-serif;
+    font-size: 1vw;
+    text-align: left;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.user-area{
+    background-color: #D9D9D9;
+    font: sans-serif;
+    font-size: 1vw;
+    margin-left: 5%;
+    text-align: left;
+    width: 90%;
+    resize: none;
+    box-shadow: 0px 4px 10px #6d6e6c;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+    padding: 0.5em;
+}
+
+.button {
+    background-color: #8CAD4A;
+    color: white; 
+    font: sans-serif;
+    font-size: 2vw;
+    margin-left: 5%;
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #73963a;
+    cursor: pointer;
+}
+
+.sub-heading a {
+    color: #8CAD4A;
+    text-decoration: none;
+  }
+  
+  .sub-heading a:hover {
+    text-decoration: underline;
+  }
+

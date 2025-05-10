@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href ="/Client/Styles/LoginPage.css">
+</head>
+<body>
+
+    <div>
+        <nav class="navigation"> 
+            <ul class="ul">
+                <li><a href="/Client/Pages/index.html">Home</a></li>
+                <li><a href="/Client/Pages/Homepage.html">Chat</a></li>
+                <li>About Us</li>
+                <li>Pricing</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class = "row">
+
+        <div class = "col-left">
+            <div class ="details-left">
+                <img src="/Client/assets/Logo.png"  class="logo"/> 
+                <h1 class = "main-header"> Ready to Join?</h1>
+                <h2 class ="sub-heading"> Please enter your details below </h2>
+                <h2 class ="user-text"> Name: </h2>
+                <input class ="user-area" name="name" id="nameSignUp"/>
+                <h2 class ="user-text"> Email: </h2>
+                <input class ="user-area" name="email" id="emailSignUp"/>
+                <h2 class ="user-text"> Enter Password: </h2>
+                <input type="password" class ="user-area" id="passwordSignUp"/>
+                <button id="signUpButton" class ="button"> Lets Go!</button>
+                <h2 class ="sub-heading">
+                    Already have an account? <a href="/Client/Pages/login.html">Login</a>
+                </h2>
+            </div>
+        </div>
+        <div class = "col-right">
+            <div class = "picture-right">
+                <img src="/Client/assets/SignUpPage.png" class="picture"/>
+            </div>
+        </div>
+    </div>
+
+  
+
+    <script src="/Client/scripts/signup.js"></script>
+</body>
+</html>
