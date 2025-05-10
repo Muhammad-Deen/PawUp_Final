@@ -1,7 +1,8 @@
 fastapi
 uvicorn
-openai
+openai==0.28
 pinecone-client
+pinecone
 python-dotenv
 langchain
 langchain-community
