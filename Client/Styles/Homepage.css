@@ -273,9 +273,10 @@ a:hover {
 /* Send Button */
 .send-btn {
     background: #8CAD4A;
-    padding: 0;
+    border-style: dashed;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 20px;
     cursor: pointer;
     display: flex;
     align-items: center;
